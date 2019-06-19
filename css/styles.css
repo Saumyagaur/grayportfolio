@@ -1,0 +1,579 @@
+
+.wrapper {
+    margin-top: -15px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+hr {
+    width: 50%;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+/*.navbar {
+    text-align: auto;
+}*/
+.nav-item {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+#indexBody {
+background-color: #E6E6E6;
+}
+a {
+color: black;
+}
+ 
+a:hover {
+    text-decoration: none;
+    color: #E8707B;
+}
+
+#nav {
+/*   background-color: #E6E6E6; */
+    padding-top: 50px;
+    position: relative;
+}
+
+
+
+/*DROPDOWN*/
+
+.dropdown-content a {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+#dropdown:hover .dropdown-content {
+  display:block;
+}
+
+
+#nameAni {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #E6E6E6;
+    position: relative;
+}
+
+
+
+
+
+
+/*Hamburger menu*/
+@media screen and (max-width: 480px) {
+    #nav {
+        display: block;
+    }
+    
+    .dropdown-content {
+        position: relative;
+    }
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+/*work*/
+
+#homeContent {
+    text-align: center;
+}
+#homeImgOne {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#testOne {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-bottom: 10px;
+    
+    
+}
+#testTwo {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#testThree {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#testFour {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#testFive {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#testSix {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#homeContent p {
+    color: black;
+    font-family: Raleway;
+    font-size: 1rem;
+    
+}
+
+
+#infoHome {
+    padding-top: 50px;
+}
+
+#infoHome p {
+    padding-left: 10%;
+    color: black;
+    font-family: Raleway;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/*ABOUT*/
+
+#aboutImgOne {
+}
+
+#aboutTestOne {
+    background-color: #D9D9D9;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    
+}
+
+#infoAbout {
+    float:left;
+    
+}
+#infoAbout p{
+    color: black;
+    font-family: Raleway;
+    font-size: 1rem;
+     padding-top: 50px;
+    text-align: left;
+    margin-right: 25%;
+    
+}
+
+#buttonResume {
+    margin-left: -55%;
+}
+
+
+
+
+/*Resume*/
+#infoResume {
+    margin-top: 50px;
+}
+h4, h3 {
+   font-family: Raleway;
+    padding-top: 20px;
+    padding-bottom: 30    px;
+    margin-left: 20%;
+}
+
+#infoResume p{
+    padding-top: -100px;
+     color: black;
+    font-family: Raleway;
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 25%;
+    margin-left: 20%;
+}
+
+/*portfolio*/
+
+#options {
+    margin-top: 60px;
+}
+#options h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    color: white;
+
+    padding-top: 25%;
+    z-index: 1;
+    text-align: center;
+}
+
+
+.design h1 {
+    opacity: 0;
+    transition: 0.5s; 
+}
+.design:hover h1{
+    opacity: 1;
+    
+}
+.design:hover {
+    transform: scale(1.05);
+}
+.design {
+    width: 100%;
+    height: 400px;
+    background-color: #e0dede;
+    transition: 0.5s; 
+    
+}
+
+
+
+
+.development h1 {
+    opacity: 0;
+    transition: 0.5s; 
+}
+.development:hover h1{
+    opacity: 1;
+    
+}
+.development:hover {
+    transform: scale(1.05)
+}
+.development {
+    width: 100%;
+    height: 400px;
+    background-color: #e0dede;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+.graphics h1 {
+    opacity: 0;
+    transition: 0.5s; 
+}
+.graphics:hover h1{
+    opacity: 1;
+    
+}
+.graphics:hover {
+    transform: scale(1.05)
+}
+.graphics {
+    width: 100%;
+    height: 400px;
+    background-color: #e0dede;
+    transition: 0.5s;
+    text-align: center;
+}
+
+
+
+
+
+
+/*.branding h1 {
+    opacity: 0;
+    transition: 0.5s; 
+}
+.branding:hover h1{
+    opacity: 1;
+    
+}
+.branding:hover {
+    transform: scale(1.05)
+}
+.branding {
+    width: 100%;
+    height: 400px;
+    background-color: #e0dede;
+    transition: 0.5s;
+}*/
+
+
+
+/*Animation*/
+
+#infoAni p {
+    padding-left: 10%;
+    color: black;
+    font-family: Raleway;
+    font-size: 1rem;
+}
+
+#video {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+
+
+
+
+/*Graphics*/
+
+
+#modalBtn {
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+#mars {
+    padding-left: 5%;
+}
+
+#graceButton {
+    margin-left: -50%;
+}
+
+/*GRACE*/
+
+#testThree h3 {
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+
+.graceContent {
+    margin-top: 60px;
+}
+/*contact*/
+
+#contact-container {
+    background-color: #cccccc;
+    height: 800px;
+    margin-top: 60px;
+    
+}
+
+.contactDetails {
+    font-family: raleway;
+}
+
+.container-fluid h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    text-align: left;
+    color: white;
+    padding-top: 10%;
+    z-index: 1;
+}
+
+.container-fluid p {
+    color: white;
+    font-family: 'Raleway', cursive;
+    font-size: 1.5rem;
+    justify-content: left;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 'Righteous', cursive;
+    padding-top: 5%;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+    color: white;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: #fff;
+	-webkit-box-shadow: #fff;
+	box-shadow: #fff;
+	border: 1px solid #fff;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #fff;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: black;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #fff;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color:white;
+    
+}
+
+.btn:click {
+    background-color: white;
+}
+
+/*
+.card {
+    width: 400px;
+}
+*/
+
+#homeContent {
+    margin-top: 70px;
+}
+
+
+
+
+
+/*WEB PAGE*/
+
+.btn {
+     background-color: #D0D7D9;
+   
+    color: black;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+    transition-duration: 0.4s;
+}
+
+
+.btn:hover {
+    color:gray;
+     background-color: white;
+   
+}
+
+.button {
+    text-align: center;
+    margin-left: 22%;
+}
+
+
+footer {
+    background-color: #b3b3b3;
+    width: 100%;
+    height:200px;
+    bottom: 0;
+    
+    font-family: raleway;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   /* margin-top: 60px;*/   
+}
+
+footer ul {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: -3%;
+}
+footer ul li {
+    display: inline;
+    padding-left: 1rem;
+    text-align: center;
+    
+}
+
+.designed {
+    text-align: center;
+}
